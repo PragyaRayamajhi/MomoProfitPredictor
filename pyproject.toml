@@ -1,0 +1,17 @@
+[project]
+name = "ai-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "pymongo>=4.8.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0.44",
+    "asyncpg>=0.30.0",
+    "greenlet>=3.2.0",
+]
